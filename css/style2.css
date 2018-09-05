@@ -1,0 +1,137 @@
+body {
+	background-image: url(../img/bg-1.jpg);
+	color: aquamarine;
+	background-attachment: fixed;
+	padding-left: 18%;
+	padding-right: 18%;
+	font-size: 30px;
+	font: 15px "open sans", Arial, sans-serif;
+}
+
+a:link { 
+    color: blue; /* Цвет непосещенных ссылок */
+   }
+a:visited { 
+    color: red;	   /*Цвет посещенных ссылок */
+   }
+ a:hover { 
+    color: yellow; /* Цвет ссылок при наведении на них курсора мыши */
+   }
+ a:active { 
+    color: #ff0; /* Цвет активных ссылок */
+}
+
+/* меню */
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+.universe{
+	float: left;
+	margin-right: 30px;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+/* меню */
+
+}
+h1 {
+	color: aquamarine;
+	font-size: 20px;
+}
+
+.FixKartinka {
+	position: fixed;
+    top: 15px;
+    right: 15px;
+    line-height: 1px;
+	width: 200px;
+}
+
+h2 {
+	font-size: 20px
+}
+
+td{
+	 border: 2px groove #FFF500
+}
+
+
+.table1{
+	color: aquamarine;
+	background: url(../img/universe.gif);
+	border: 2px	double #00C3FF;	
+}
+
+.table {
+	color: aqua;
+}
+
+ol{
+	font-size: 24px
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 7s;
+  width: 95px;
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}

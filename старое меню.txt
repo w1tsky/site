@@ -1,0 +1,74 @@
+
+		<ul class="menu">
+			<li><a href="index.htm">Вселенная</a></li>
+			<li><a href="Evolution.html">Эволюция</a></li>
+			<li><a href="theorii.html">Теории</a></li>
+			<li><a href="KosmOb.html">Космические объекты</a>
+				 <ul class="submenu">
+            		<li><a href="SVERH.html">Сверхскопления галактик</a></li>
+            		<li><a href=#>Войды</a></li>
+          		  	<li><a href=#>Галактические нити</a></li>
+        		</ul>
+			</li>
+		</ul>
+
+
+css
+
+ul.menu {
+  background: #FDF5E6; 
+  width: 960px;
+  margin: 15px;
+  display: table;
+}
+
+ul.menu li {
+	float: left; /* Обтекание элемента */
+	margin: 0; /* Отступ */
+	position: relative;
+	list-style: none;
+}
+
+ul.menu li a {
+	display: block;
+	float: left;
+	padding: 15px;
+	color: #777 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<table id ="table1">
+			<tr>
+				<td><span>Самый распространённый элемент — водород.</td>
+				<td>Расширение Вселенной с хорошей точностью линейно до z ~ 0,1.</td>
+				<td>Реликтовый фон флуктуирует на масштабах четвёртого порядка малости.</td>
+			</tr>
+			<tr>
+				<td>Температура реликтового фона зависит от z.</td>
+				<td>Наличие L?-леса в спектрах далёких объектов (квазаров) с z > 6.</td>
+				<td>Наличие сильной неоднородности в распределении галактик на масштабах < 100 Мпк.</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+﻿body {
+	background-image: url(../img/bg-1.jpg);
+	color: rgb(127, 255, 212);
+	background-attachment: fixed;
+	padding-left: 18%;
+	padding-right: 18%;
+	font-size: 30px;
+	font: 15px "open sans", Arial, sans-serif;
+}
+
+.bef{
+  width: 20px;
+  font-size: 20px;
+}
+h1 {
+	color: rgba(127, 255, 212, 0.5);
+	font-size: 20px
+}
+
+a:link { 
+    color: blue; /* Цвет непосещенных ссылок */
+   }
+a:visited { 
+    color: red; /* Цвет посещенных ссылок */
+   }
+ a:hover { 
+    color: yellow; /* Цвет ссылок при наведении на них курсора мыши */
+   }
+ /*
+ a:active { 
+    color: #ff0;  Цвет активных ссылок 
+}
+*/
+
+td{
+	 border: 2px groove #FFF500
+}
+
+#table1{
+	color: aquamarine;
+	background: url(../img/nebula.jpg);
+	border: 2px	double #00C3FF;
+}
+
+.universe{
+    float: left;
+    margin-right: 30px;
+
+ /* меню */
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.universe{
+    float: left;
+    margin-right: 30px;
+    height: 200px;
+}
+
+.box {
+    background: #2db34a;
+    border-radius: 6px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
